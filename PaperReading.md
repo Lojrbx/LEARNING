@@ -1,5 +1,5 @@
 
-###### 2020/3/3
+###### 2020/3/1
 | No. | Theme | Date | Title | Summary |  
 | :-: | :-: | :-: | :-: | :-: |
 1 | Fact Verification | 2020 | Fine-grained Fact Verification with kernel Graph Attention Network| 主要提出了KGAT模型，模型主要分为Evidence Reasoning和Evidence Selection。Graph中node由claim和evidence合成的pair，edge用与propagate node间的information。其中**Evidence Reasoning**部分：先用BERT求得初始的node representation，再用kernel Attention融合node间的关系得到最终的representation(v^p);**Evidence Selection**部分：先用claim和evidence计算一个translation matrix，从矩阵中使用kernel提取soft match feature求得Φ作为selection representation,再由此求得最终的P|
